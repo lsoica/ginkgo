@@ -217,7 +217,7 @@ func (runner *SpecRunner) CurrentSpecSummary() (*types.SpecSummary, bool) {
 
 func (runner *SpecRunner) registerForInterrupts(signalRegistered chan struct{}) {
 	c := make(chan os.Signal, 1)
-	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
+	signal.Notify(c, os.Interrupt, syscall.SIGTERM, syscall.SIGQUIT, syscall.SIGINT)
 	close(signalRegistered)
 
 	<-c
@@ -232,7 +232,6 @@ Received interrupt.  Emitting contents of GinkgoWriter...
 		fmt.Fprint(os.Stderr, `
 ---------------------------------------------------------
 Received interrupt.  Running AfterSuite...
-^C again to terminate immediately
 `)
 		runner.runAfterSuite()
 	}
@@ -242,11 +241,12 @@ Received interrupt.  Running AfterSuite...
 
 func (runner *SpecRunner) registerForHardInterrupts() {
 	c := make(chan os.Signal, 1)
-	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
+	for {
+		signal.Notify(c, os.Interrupt, syscall.SIGTERM, syscall.SIGQUIT, syscall.SIGINT)
 
-	<-c
-	fmt.Fprintln(os.Stderr, "\nReceived second interrupt.  Shutting down.")
-	os.Exit(1)
+		<-c
+		fmt.Fprintln(os.Stderr, "\nReceived a new interrupt. Still shutting down.")
+	}
 }
 
 func (runner *SpecRunner) blockForeverIfInterrupted() {

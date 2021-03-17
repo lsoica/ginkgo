@@ -1,6 +1,7 @@
 package interrupthandler
 
 import (
+	"fmt"
 	"os"
 	"os/signal"
 	"sync"
@@ -34,16 +35,17 @@ func (h *InterruptHandler) WasInterrupted() bool {
 
 func (h *InterruptHandler) handleInterrupt() {
 	c := make(chan os.Signal, 1)
-	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
+	signal.Notify(c, os.Interrupt, syscall.SIGTERM, syscall.SIGQUIT, syscall.SIGINT)
 
 	<-c
 	signal.Stop(c)
 
 	h.lock.Lock()
 	h.interruptCount++
+	fmt.Printf("\nInterrupt %d out of 100\n", h.interruptCount)
 	if h.interruptCount == 1 {
 		close(h.C)
-	} else if h.interruptCount > 5 {
+	} else if h.interruptCount > 100 {
 		os.Exit(1)
 	}
 	h.lock.Unlock()
