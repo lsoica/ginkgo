@@ -5,7 +5,6 @@ import (
 
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/internal/suite"
-	. "github.com/onsi/gomega"
 
 	"math/rand"
 	"time"

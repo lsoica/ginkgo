@@ -3,8 +3,8 @@ package spec_iterator_test
 import (
 	"net/http"
 
+	"github.com/lsoica/ginkgo/ghttp"
 	. "github.com/lsoica/ginkgo/internal/spec_iterator"
-	"github.com/onsi/gomega/ghttp"
 
 	"github.com/lsoica/ginkgo/internal/codelocation"
 	"github.com/lsoica/ginkgo/internal/containernode"
@@ -13,7 +13,6 @@ import (
 	"github.com/lsoica/ginkgo/types"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("ParallelSpecIterator", func() {

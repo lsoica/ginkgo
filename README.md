@@ -9,7 +9,7 @@ If you have a question, comment, bug report, feature request, etc. please open a
 
 ## TLDR
 Ginkgo builds on Go's `testing` package, allowing expressive [Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) ("BDD") style tests.
-It is typically (and optionally) paired with the [Gomega](https://github.com/onsi/gomega) matcher library.
+It is typically (and optionally) paired with the [Gomega](https://github.com/lsoica/ginkgo) matcher library.
 
 ```go
 Describe("the strings package", func() {
@@ -70,7 +70,7 @@ Describe("the strings package", func() {
     - Write [custom reporters](https://onsi.github.io/ginkgo/#writing-custom-reporters) (for example, Ginkgo comes with a [JUnit XML reporter](https://onsi.github.io/ginkgo/#generating-junit-xml-output) and a TeamCity reporter).
     - [Adapt an existing matcher library (or write your own!)](https://onsi.github.io/ginkgo/#using-other-matcher-libraries) to work with Ginkgo
 
-## [Gomega](https://github.com/onsi/gomega): Ginkgo's Preferred Matcher Library
+## [Gomega](https://github.com/lsoica/ginkgo): Ginkgo's Preferred Matcher Library
 
 Ginkgo is best paired with Gomega.  Learn more about Gomega [here](https://onsi.github.io/gomega/)
 
@@ -122,7 +122,7 @@ ginkgo  # also runs your tests
 
 ## I'm new to Go: What are my testing options?
 
-Of course, I heartily recommend [Ginkgo](https://github.com/lsoica/ginkgo) and [Gomega](https://github.com/onsi/gomega).  Both packages are seeing heavy, daily, production use on a number of projects and boast a mature and comprehensive feature-set.
+Of course, I heartily recommend [Ginkgo](https://github.com/lsoica/ginkgo) and [Gomega](https://github.com/lsoica/ginkgo).  Both packages are seeing heavy, daily, production use on a number of projects and boast a mature and comprehensive feature-set.
 
 With that said, it's great to know what your options are :)
 
@@ -137,7 +137,7 @@ A number of matcher libraries have been written to augment Go's built-in XUnit s
 - [testify](https://github.com/stretchr/testify)
 - [gocheck](https://labix.org/gocheck)
 
-You can also use Ginkgo's matcher library [Gomega](https://github.com/onsi/gomega) in [XUnit style tests](https://onsi.github.io/gomega/#using-gomega-with-golangs-xunitstyle-tests)
+You can also use Ginkgo's matcher library [Gomega](https://github.com/lsoica/ginkgo) in [XUnit style tests](https://onsi.github.io/gomega/#using-gomega-with-golangs-xunitstyle-tests)
 
 ### BDD style testing frameworks
 

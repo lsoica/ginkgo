@@ -42,7 +42,7 @@ var specText = `package {{.Package}}
 
 import (
 	{{if .IncludeImports}}. "github.com/lsoica/ginkgo"{{end}}
-	{{if .IncludeImports}}. "github.com/onsi/gomega"{{end}}
+	{{if .IncludeImports}}. "github.com/lsoica/ginkgo"{{end}}
 
 	{{if .ImportPackage}}"{{.PackageImportPath}}"{{end}}
 )
@@ -56,7 +56,7 @@ var agoutiSpecText = `package {{.Package}}
 
 import (
 	{{if .IncludeImports}}. "github.com/lsoica/ginkgo"{{end}}
-	{{if .IncludeImports}}. "github.com/onsi/gomega"{{end}}
+	{{if .IncludeImports}}. "github.com/lsoica/ginkgo"{{end}}
 	"github.com/sclevine/agouti"
 	. "github.com/sclevine/agouti/matchers"
 

@@ -2,7 +2,6 @@ package synchronized_setup_tests_test
 
 import (
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 
 	"fmt"
 	"os"

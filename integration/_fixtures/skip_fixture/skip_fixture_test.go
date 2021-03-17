@@ -2,7 +2,6 @@ package fail_fixture_test
 
 import (
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = It("handles top level skips", func() {

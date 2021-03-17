@@ -8,7 +8,6 @@ import (
 	"strings"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("ginkgo convert", func() {

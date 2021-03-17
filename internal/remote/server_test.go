@@ -3,7 +3,6 @@ package remote_test
 import (
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/internal/remote"
-	. "github.com/onsi/gomega"
 
 	"github.com/lsoica/ginkgo/config"
 	"github.com/lsoica/ginkgo/reporters"

@@ -3,7 +3,7 @@ Ginkgo is a BDD-style testing framework for Golang
 
 The godoc documentation describes Ginkgo's API.  More comprehensive documentation (with examples!) is available at http://onsi.github.io/ginkgo/
 
-Ginkgo's preferred matcher library is [Gomega](http://github.com/onsi/gomega)
+Ginkgo's preferred matcher library is [Gomega](http://github.com/lsoica/ginkgo)
 
 Ginkgo on Github: http://github.com/lsoica/ginkgo
 

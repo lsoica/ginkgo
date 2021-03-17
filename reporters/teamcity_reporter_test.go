@@ -10,7 +10,6 @@ import (
 	"github.com/lsoica/ginkgo/internal/codelocation"
 	"github.com/lsoica/ginkgo/reporters"
 	"github.com/lsoica/ginkgo/types"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("TeamCity Reporter", func() {

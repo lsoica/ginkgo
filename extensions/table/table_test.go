@@ -7,7 +7,6 @@ import (
 	. "github.com/lsoica/ginkgo/extensions/table"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Table", func() {

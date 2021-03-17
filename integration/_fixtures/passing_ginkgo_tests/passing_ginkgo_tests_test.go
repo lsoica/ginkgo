@@ -3,7 +3,6 @@ package passing_ginkgo_tests_test
 import (
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/integration/_fixtures/passing_ginkgo_tests"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("PassingGinkgoTests", func() {

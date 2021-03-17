@@ -4,7 +4,6 @@ import (
 	"testing"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 func TestTestingtproxy(t *testing.T) {

@@ -9,7 +9,6 @@ import (
 
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/integration/_fixtures/flags_tests"
-	. "github.com/onsi/gomega"
 )
 
 var customFlag string

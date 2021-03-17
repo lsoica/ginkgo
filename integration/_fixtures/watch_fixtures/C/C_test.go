@@ -4,7 +4,7 @@ import (
 	. "$ROOT_PATH$/C"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/lsoica/ginkgo"
 )
 
 var _ = Describe("C", func() {

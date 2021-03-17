@@ -5,7 +5,6 @@ import (
 	. "github.com/lsoica/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("CoverageFixture", func() {

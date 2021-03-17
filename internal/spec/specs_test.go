@@ -5,7 +5,6 @@ import (
 
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/internal/spec"
-	. "github.com/onsi/gomega"
 
 	"github.com/lsoica/ginkgo/internal/codelocation"
 	"github.com/lsoica/ginkgo/internal/containernode"

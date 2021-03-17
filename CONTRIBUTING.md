@@ -17,7 +17,7 @@ Fork the repo, then:
 
 ```
 go get github.com/lsoica/ginkgo
-go get github.com/onsi/gomega/...
+go get github.com/lsoica/ginkgo/...
 cd $GOPATH/src/github.com/lsoica/ginkgo
 git remote add fork git@github.com:<NAME>/ginkgo.git
 

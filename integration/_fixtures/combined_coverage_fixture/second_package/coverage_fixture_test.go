@@ -3,7 +3,6 @@ package second_package_test
 import (
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/integration/_fixtures/combined_coverage_fixture/second_package"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("CoverageFixture", func() {

@@ -2,8 +2,7 @@ package integration_test
 
 import (
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
+	"github.com/lsoica/ginkgo/gexec"
 )
 
 var _ = Describe("Failing Specs", func() {

@@ -119,7 +119,7 @@ func generateNodotSections() ([]nodotSection, error) {
 		types:        []string{"Done", "Benchmarker"},
 	})
 
-	declarations, err = getExportedDeclerationsForPackage("github.com/onsi/gomega", "gomega_dsl.go", "GOMEGA_VERSION")
+	declarations, err = getExportedDeclerationsForPackage("github.com/lsoica/ginkgo", "gomega_dsl.go", "GOMEGA_VERSION")
 	if err != nil {
 		return nil, err
 	}
@@ -129,7 +129,7 @@ func generateNodotSections() ([]nodotSection, error) {
 		declarations: declarations,
 	})
 
-	declarations, err = getExportedDeclerationsForPackage("github.com/onsi/gomega", "matchers.go")
+	declarations, err = getExportedDeclerationsForPackage("github.com/lsoica/ginkgo", "matchers.go")
 	if err != nil {
 		return nil, err
 	}

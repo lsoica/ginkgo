@@ -2,9 +2,8 @@ package integration_test
 
 import (
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gbytes"
-	"github.com/onsi/gomega/gexec"
+	"github.com/lsoica/ginkgo/gbytes"
+	"github.com/lsoica/ginkgo/gexec"
 )
 
 var _ = Describe("Emitting progress", func() {

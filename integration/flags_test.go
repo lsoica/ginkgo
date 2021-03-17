@@ -7,9 +7,8 @@ import (
 	"strings"
 
 	. "github.com/lsoica/ginkgo"
+	"github.com/lsoica/ginkgo/gexec"
 	"github.com/lsoica/ginkgo/types"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
 )
 
 var _ = Describe("Flags Specs", func() {

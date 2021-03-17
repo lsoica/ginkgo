@@ -2,7 +2,6 @@ package tmp
 
 import (
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 
 	"testing"
 )

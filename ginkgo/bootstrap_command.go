@@ -140,12 +140,12 @@ func generateBootstrap(agouti, noDot, internal bool, customBootstrapFile string)
 		Package:       determinePackageName(packageName, internal),
 		FormattedName: formattedName,
 		GinkgoImport:  `. "github.com/lsoica/ginkgo"`,
-		GomegaImport:  `. "github.com/onsi/gomega"`,
+		GomegaImport:  `. "github.com/lsoica/ginkgo"`,
 	}
 
 	if noDot {
 		data.GinkgoImport = `"github.com/lsoica/ginkgo"`
-		data.GomegaImport = `"github.com/onsi/gomega"`
+		data.GomegaImport = `"github.com/lsoica/ginkgo"`
 	}
 
 	targetFile := fmt.Sprintf("%s_suite_test.go", bootstrapFilePrefix)

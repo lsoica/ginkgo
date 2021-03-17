@@ -4,8 +4,7 @@ import (
 	"strings"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
+	"github.com/lsoica/ginkgo/gexec"
 )
 
 var _ = Describe("SuiteSetup", func() {

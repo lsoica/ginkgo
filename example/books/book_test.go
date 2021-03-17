@@ -3,7 +3,6 @@ package books_test
 import (
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/example/books"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Book", func() {

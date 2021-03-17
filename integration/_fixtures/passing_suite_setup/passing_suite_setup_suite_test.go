@@ -2,7 +2,6 @@ package passing_before_suite_test
 
 import (
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 
 	"testing"
 )

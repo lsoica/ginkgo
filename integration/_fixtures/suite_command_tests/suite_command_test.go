@@ -2,7 +2,6 @@ package suite_command_test
 
 import (
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Testing suite command", func() {

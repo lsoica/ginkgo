@@ -3,11 +3,10 @@ package leafnodes_test
 import (
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/internal/leafnodes"
-	. "github.com/onsi/gomega"
 
 	"net/http"
 
-	"github.com/onsi/gomega/ghttp"
+	"github.com/lsoica/ginkgo/ghttp"
 
 	"time"
 

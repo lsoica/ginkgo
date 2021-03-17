@@ -3,7 +3,6 @@ package fail_fixture_test
 import (
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/extensions/table"
-	. "github.com/onsi/gomega"
 )
 
 var _ = It("handles top level failures", func() {

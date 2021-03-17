@@ -7,7 +7,6 @@ import (
 	"time"
 
 	. "github.com/lsoica/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("EventuallyFailing", func() {
