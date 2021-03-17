@@ -9,6 +9,7 @@ import (
 
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/ginkgo/testsuite"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("TestSuite", func() {

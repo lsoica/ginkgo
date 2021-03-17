@@ -5,7 +5,8 @@ import (
 	"runtime"
 
 	. "github.com/lsoica/ginkgo"
-	"github.com/lsoica/ginkgo/gexec"
+	. "github.com/onsi/gomega"
+	"github.com/onsi/gomega/gexec"
 )
 
 var _ = Describe("Verbose And Succinct Mode", func() {

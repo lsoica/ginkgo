@@ -6,6 +6,7 @@ import (
 	. "github.com/lsoica/ginkgo"
 	"github.com/lsoica/ginkgo/ginkgo/testrunner"
 	"github.com/lsoica/ginkgo/ginkgo/testsuite"
+	. "github.com/onsi/gomega"
 )
 
 func strAddr(s string) interface{} {

@@ -13,6 +13,7 @@ import (
 
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/extensions/table"
+	. "github.com/onsi/gomega"
 )
 
 var _ = DescribeTable("Validate outline from file with",

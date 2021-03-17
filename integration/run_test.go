@@ -9,9 +9,10 @@ import (
 	"strings"
 
 	. "github.com/lsoica/ginkgo"
-	"github.com/lsoica/ginkgo/gbytes"
-	"github.com/lsoica/ginkgo/gexec"
+	"github.com/onsi/gomega/gbytes"
+	"github.com/onsi/gomega/gexec"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Running Specs", func() {

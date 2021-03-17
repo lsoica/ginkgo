@@ -9,12 +9,13 @@ import (
 
 	"net/http"
 
-	"github.com/lsoica/ginkgo/ghttp"
+	"github.com/onsi/gomega/ghttp"
 
 	"time"
 
 	"github.com/lsoica/ginkgo/internal/codelocation"
 	Failer "github.com/lsoica/ginkgo/internal/failer"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("SynchronizedAfterSuiteNode", func() {

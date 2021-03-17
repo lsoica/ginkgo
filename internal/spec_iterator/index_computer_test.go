@@ -3,6 +3,7 @@ package spec_iterator_test
 import (
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/internal/spec_iterator"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("ParallelizedIndexRange", func() {

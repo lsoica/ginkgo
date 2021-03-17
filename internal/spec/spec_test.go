@@ -4,7 +4,7 @@ import (
 	"time"
 
 	. "github.com/lsoica/ginkgo"
-	"github.com/lsoica/ginkgo/gbytes"
+	"github.com/onsi/gomega/gbytes"
 
 	. "github.com/lsoica/ginkgo/internal/spec"
 
@@ -13,6 +13,7 @@ import (
 	Failer "github.com/lsoica/ginkgo/internal/failer"
 	"github.com/lsoica/ginkgo/internal/leafnodes"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var noneFlag = types.FlagTypeNone

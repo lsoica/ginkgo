@@ -9,6 +9,7 @@ import (
 	"github.com/lsoica/ginkgo/internal/codelocation"
 	Failer "github.com/lsoica/ginkgo/internal/failer"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Measure Nodes", func() {

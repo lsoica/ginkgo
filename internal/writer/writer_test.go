@@ -1,10 +1,11 @@
 package writer_test
 
 import (
-	"github.com/lsoica/ginkgo/gbytes"
+	"github.com/onsi/gomega/gbytes"
 
 	. "github.com/lsoica/ginkgo"
 	. "github.com/lsoica/ginkgo/internal/writer"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Writer", func() {

@@ -14,6 +14,7 @@ import (
 	"github.com/lsoica/ginkgo/internal/spec"
 	Writer "github.com/lsoica/ginkgo/internal/writer"
 	"github.com/lsoica/ginkgo/reporters"
+	. "github.com/onsi/gomega"
 )
 
 var noneFlag = types.FlagTypeNone

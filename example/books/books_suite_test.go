@@ -4,6 +4,7 @@ import (
 	"testing"
 
 	. "github.com/lsoica/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 func TestBooks(t *testing.T) {

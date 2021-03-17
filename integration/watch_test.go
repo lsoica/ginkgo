@@ -8,8 +8,9 @@ import (
 	"time"
 
 	. "github.com/lsoica/ginkgo"
-	"github.com/lsoica/ginkgo/gbytes"
-	"github.com/lsoica/ginkgo/gexec"
+	. "github.com/onsi/gomega"
+	"github.com/onsi/gomega/gbytes"
+	"github.com/onsi/gomega/gexec"
 )
 
 var _ = Describe("Watch", func() {

@@ -15,6 +15,7 @@ import (
 	Writer "github.com/lsoica/ginkgo/internal/writer"
 	"github.com/lsoica/ginkgo/reporters"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Suite", func() {

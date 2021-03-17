@@ -8,6 +8,7 @@ import (
 	"github.com/lsoica/ginkgo/reporters"
 	st "github.com/lsoica/ginkgo/reporters/stenographer"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("DefaultReporter", func() {

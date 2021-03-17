@@ -7,6 +7,7 @@ import (
 	"github.com/lsoica/ginkgo/config"
 	. "github.com/lsoica/ginkgo/internal/remote"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("ForwardingReporter", func() {

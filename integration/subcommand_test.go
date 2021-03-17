@@ -7,8 +7,9 @@ import (
 	"strings"
 
 	. "github.com/lsoica/ginkgo"
-	"github.com/lsoica/ginkgo/gexec"
+	"github.com/onsi/gomega/gexec"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Subcommand", func() {

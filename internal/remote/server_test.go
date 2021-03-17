@@ -11,6 +11,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"net/http"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Server", func() {

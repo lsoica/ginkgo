@@ -7,6 +7,7 @@ import (
 	. "github.com/lsoica/ginkgo/internal/leafnodes"
 
 	"github.com/lsoica/ginkgo/internal/codelocation"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Setup Nodes", func() {

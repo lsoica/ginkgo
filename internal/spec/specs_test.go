@@ -10,6 +10,7 @@ import (
 	"github.com/lsoica/ginkgo/internal/containernode"
 	"github.com/lsoica/ginkgo/internal/leafnodes"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Specs", func() {

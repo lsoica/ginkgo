@@ -10,10 +10,11 @@ import (
 	"runtime"
 
 	. "github.com/lsoica/ginkgo"
-	"github.com/lsoica/ginkgo/gexec"
+	"github.com/onsi/gomega/gexec"
 
 	"testing"
 	"time"
+	. "github.com/onsi/gomega"
 )
 
 var tmpDir string

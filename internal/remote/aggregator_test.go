@@ -9,6 +9,7 @@ import (
 	. "github.com/lsoica/ginkgo/internal/remote"
 	st "github.com/lsoica/ginkgo/reporters/stenographer"
 	"github.com/lsoica/ginkgo/types"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Aggregator", func() {

@@ -10,6 +10,7 @@ import (
 	"github.com/lsoica/ginkgo/types"
 
 	. "github.com/lsoica/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("SerialSpecIterator", func() {

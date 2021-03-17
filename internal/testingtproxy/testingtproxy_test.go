@@ -3,9 +3,10 @@ package testingtproxy_test
 import (
 	. "github.com/lsoica/ginkgo"
 
-	"github.com/lsoica/ginkgo/gbytes"
+	"github.com/onsi/gomega/gbytes"
 
 	"github.com/lsoica/ginkgo/internal/testingtproxy"
+	. "github.com/onsi/gomega"
 )
 
 type messagedCall struct {

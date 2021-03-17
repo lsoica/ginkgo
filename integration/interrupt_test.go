@@ -4,8 +4,9 @@ import (
 	"os/exec"
 
 	. "github.com/lsoica/ginkgo"
-	"github.com/lsoica/ginkgo/gbytes"
-	"github.com/lsoica/ginkgo/gexec"
+	"github.com/onsi/gomega/gbytes"
+	"github.com/onsi/gomega/gexec"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Interrupt", func() {
