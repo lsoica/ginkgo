@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/lsoica/ginkgo"
 	. "github.com/onsi/gomega"
 )
 

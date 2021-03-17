@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/lsoica/ginkgo/config"
+	"github.com/lsoica/ginkgo/ginkgo/testsuite"
 )
 
 type Notifier struct {

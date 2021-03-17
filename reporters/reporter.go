@@ -1,8 +1,8 @@
 package reporters
 
 import (
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/config"
+	"github.com/lsoica/ginkgo/types"
 )
 
 type Reporter interface {

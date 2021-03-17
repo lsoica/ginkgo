@@ -41,7 +41,7 @@ func BuildGenerateCommand() *Command {
 var specText = `package {{.Package}}
 
 import (
-	{{if .IncludeImports}}. "github.com/onsi/ginkgo"{{end}}
+	{{if .IncludeImports}}. "github.com/lsoica/ginkgo"{{end}}
 	{{if .IncludeImports}}. "github.com/onsi/gomega"{{end}}
 
 	{{if .ImportPackage}}"{{.PackageImportPath}}"{{end}}
@@ -55,7 +55,7 @@ var _ = Describe("{{.Subject}}", func() {
 var agoutiSpecText = `package {{.Package}}
 
 import (
-	{{if .IncludeImports}}. "github.com/onsi/ginkgo"{{end}}
+	{{if .IncludeImports}}. "github.com/lsoica/ginkgo"{{end}}
 	{{if .IncludeImports}}. "github.com/onsi/gomega"{{end}}
 	"github.com/sclevine/agouti"
 	. "github.com/sclevine/agouti/matchers"

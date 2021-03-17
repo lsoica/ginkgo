@@ -16,8 +16,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/config"
+	"github.com/lsoica/ginkgo/types"
 )
 
 type JUnitTestSuite struct {
@@ -160,7 +160,7 @@ func (reporter *JUnitReporter) SpecSuiteDidEnd(summary *types.SuiteSummary) {
 	if err == nil {
 		fmt.Fprintf(os.Stdout, "\nJUnit report was created: %s\n", filePath)
 	} else {
-		fmt.Fprintf(os.Stderr,"\nFailed to generate JUnit report data:\n\t%s", err.Error())
+		fmt.Fprintf(os.Stderr, "\nFailed to generate JUnit report data:\n\t%s", err.Error())
 	}
 }
 

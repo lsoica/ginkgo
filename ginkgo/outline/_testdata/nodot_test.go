@@ -1,8 +1,8 @@
 package example_test
 
 import (
-	"github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/extensions/table"
+	"github.com/lsoica/ginkgo"
+	"github.com/lsoica/ginkgo/extensions/table"
 )
 
 var _ = ginkgo.Describe("NodotFixture", func() {

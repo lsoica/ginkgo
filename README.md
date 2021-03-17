@@ -1,7 +1,7 @@
 ![Ginkgo: A Go BDD Testing Framework](https://onsi.github.io/ginkgo/images/ginkgo.png)
 
 [![Build Status](https://travis-ci.org/onsi/ginkgo.svg?branch=master)](https://travis-ci.org/onsi/ginkgo)
-[![test](https://github.com/onsi/ginkgo/workflows/test/badge.svg?branch=master)](https://github.com/onsi/ginkgo/actions?query=workflow%3Atest+branch%3Amaster)
+[![test](https://github.com/lsoica/ginkgo/workflows/test/badge.svg?branch=master)](https://github.com/lsoica/ginkgo/actions?query=workflow%3Atest+branch%3Amaster)
 
 Jump to the [docs](https://onsi.github.io/ginkgo/) | [中文文档](https://ke-chain.github.io/ginkgodoc) to learn more.  To start rolling your Ginkgo tests *now* [keep reading](#set-me-up)!
 
@@ -58,7 +58,7 @@ Describe("the strings package", func() {
 
 - Built-in support for [benchmarking](https://onsi.github.io/ginkgo/#benchmark-tests) your code.  Control the number of benchmark samples as you gather runtimes and other, arbitrary, bits of numerical information about your code. 
 
-- [Completions for Sublime Text](https://github.com/onsi/ginkgo-sublime-completions): just use [Package Control](https://sublime.wbond.net/) to install `Ginkgo Completions`.
+- [Completions for Sublime Text](https://github.com/lsoica/ginkgo-sublime-completions): just use [Package Control](https://sublime.wbond.net/) to install `Ginkgo Completions`.
 
 - [Completions for VSCode](https://github.com/onsi/vscode-ginkgo): just use VSCode's extension installer to install `vscode-ginkgo`.
 
@@ -85,7 +85,7 @@ You'll need the Go command-line tools. Follow the [installation instructions](ht
 ### Global installation
 To install the Ginkgo command line interface:
 ```bash
-go get -u github.com/onsi/ginkgo/ginkgo
+go get -u github.com/lsoica/ginkgo/ginkgo
 ```
 Note that this will install it to `$GOBIN`, which will need to be in the `$PATH` (or equivalent). Run `go help install` for more information.
 
@@ -97,13 +97,13 @@ Create (or update) a file called `tools/tools.go` with the following contents:
 package tools
 
 import (
-	_ "github.com/onsi/ginkgo/ginkgo"
+	_ "github.com/lsoica/ginkgo/ginkgo"
 )
 
 // This file imports packages that are used when running go generate, or used
 // during the development process but not otherwise depended on by built code.
 ```
-The Ginkgo command can then be run via `go run github.com/onsi/ginkgo/ginkgo`.
+The Ginkgo command can then be run via `go run github.com/lsoica/ginkgo/ginkgo`.
 This approach allows the version of Ginkgo to be maintained under source control for reproducible results,
 and is well suited to automated test pipelines.
 
@@ -122,7 +122,7 @@ ginkgo  # also runs your tests
 
 ## I'm new to Go: What are my testing options?
 
-Of course, I heartily recommend [Ginkgo](https://github.com/onsi/ginkgo) and [Gomega](https://github.com/onsi/gomega).  Both packages are seeing heavy, daily, production use on a number of projects and boast a mature and comprehensive feature-set.
+Of course, I heartily recommend [Ginkgo](https://github.com/lsoica/ginkgo) and [Gomega](https://github.com/onsi/gomega).  Both packages are seeing heavy, daily, production use on a number of projects and boast a mature and comprehensive feature-set.
 
 With that said, it's great to know what your options are :)
 
@@ -143,7 +143,7 @@ You can also use Ginkgo's matcher library [Gomega](https://github.com/onsi/gomeg
 
 There are a handful of BDD-style testing frameworks written for Go.  Here are a few:
 
-- [Ginkgo](https://github.com/onsi/ginkgo) ;)
+- [Ginkgo](https://github.com/lsoica/ginkgo) ;)
 - [GoConvey](https://github.com/smartystreets/goconvey) 
 - [Goblin](https://github.com/franela/goblin)
 - [Mao](https://github.com/azer/mao)

@@ -3,17 +3,17 @@ package spec_test
 import (
 	"time"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/lsoica/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 
-	. "github.com/onsi/ginkgo/internal/spec"
+	. "github.com/lsoica/ginkgo/internal/spec"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/containernode"
-	Failer "github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/internal/codelocation"
+	"github.com/lsoica/ginkgo/internal/containernode"
+	Failer "github.com/lsoica/ginkgo/internal/failer"
+	"github.com/lsoica/ginkgo/internal/leafnodes"
+	"github.com/lsoica/ginkgo/types"
 )
 
 var noneFlag = types.FlagTypeNone

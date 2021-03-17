@@ -13,8 +13,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/config"
+	"github.com/lsoica/ginkgo/types"
 )
 
 const (

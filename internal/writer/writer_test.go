@@ -3,8 +3,8 @@ package writer_test
 import (
 	"github.com/onsi/gomega/gbytes"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/writer"
+	. "github.com/lsoica/ginkgo"
+	. "github.com/lsoica/ginkgo/internal/writer"
 	. "github.com/onsi/gomega"
 )
 

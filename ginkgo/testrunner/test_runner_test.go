@@ -3,9 +3,9 @@ package testrunner_test
 import (
 	"testing"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	. "github.com/lsoica/ginkgo"
+	"github.com/lsoica/ginkgo/ginkgo/testrunner"
+	"github.com/lsoica/ginkgo/ginkgo/testsuite"
 	. "github.com/onsi/gomega"
 )
 

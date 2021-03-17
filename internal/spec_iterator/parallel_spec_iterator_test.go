@@ -3,16 +3,16 @@ package spec_iterator_test
 import (
 	"net/http"
 
-	. "github.com/onsi/ginkgo/internal/spec_iterator"
+	. "github.com/lsoica/ginkgo/internal/spec_iterator"
 	"github.com/onsi/gomega/ghttp"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/containernode"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/internal/spec"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/internal/codelocation"
+	"github.com/lsoica/ginkgo/internal/containernode"
+	"github.com/lsoica/ginkgo/internal/leafnodes"
+	"github.com/lsoica/ginkgo/internal/spec"
+	"github.com/lsoica/ginkgo/types"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/lsoica/ginkgo"
 	. "github.com/onsi/gomega"
 )
 

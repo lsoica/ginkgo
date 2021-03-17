@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/internal/failer"
+	"github.com/lsoica/ginkgo/types"
 )
 
 type synchronizedBeforeSuiteNode struct {

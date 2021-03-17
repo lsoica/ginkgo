@@ -1,8 +1,8 @@
 package spec_iterator_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/spec_iterator"
+	. "github.com/lsoica/ginkgo"
+	. "github.com/lsoica/ginkgo/internal/spec_iterator"
 	. "github.com/onsi/gomega"
 )
 

@@ -7,8 +7,8 @@ import (
 	_ "math/cmplx"
 	"time"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/integration/_fixtures/flags_tests"
+	. "github.com/lsoica/ginkgo"
+	. "github.com/lsoica/ginkgo/integration/_fixtures/flags_tests"
 	. "github.com/onsi/gomega"
 )
 

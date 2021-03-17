@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/types"
+	. "github.com/lsoica/ginkgo"
+	"github.com/lsoica/ginkgo/types"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"

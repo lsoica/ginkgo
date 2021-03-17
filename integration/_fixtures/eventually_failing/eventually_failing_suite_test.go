@@ -1,7 +1,7 @@
 package eventually_failing_test
 
 import (
-	. "github.com/onsi/ginkgo"
+	. "github.com/lsoica/ginkgo"
 	. "github.com/onsi/gomega"
 
 	"testing"

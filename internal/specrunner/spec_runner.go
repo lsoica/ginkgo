@@ -7,14 +7,14 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/onsi/ginkgo/internal/spec_iterator"
+	"github.com/lsoica/ginkgo/internal/spec_iterator"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/internal/spec"
-	Writer "github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/config"
+	"github.com/lsoica/ginkgo/internal/leafnodes"
+	"github.com/lsoica/ginkgo/internal/spec"
+	Writer "github.com/lsoica/ginkgo/internal/writer"
+	"github.com/lsoica/ginkgo/reporters"
+	"github.com/lsoica/ginkgo/types"
 
 	"time"
 )

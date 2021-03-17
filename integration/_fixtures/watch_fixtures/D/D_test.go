@@ -3,7 +3,7 @@ package D_test
 import (
 	. "$ROOT_PATH$/D"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/lsoica/ginkgo"
 	. "github.com/onsi/gomega"
 )
 

@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/reporters/stenographer"
+	"github.com/lsoica/ginkgo/internal/writer"
+	"github.com/lsoica/ginkgo/reporters"
+	"github.com/lsoica/ginkgo/reporters/stenographer"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/config"
+	"github.com/lsoica/ginkgo/types"
 )
 
 //An interface to net/http's client to allow the injection of fakes under test

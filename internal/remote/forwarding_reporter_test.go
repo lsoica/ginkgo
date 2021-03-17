@@ -3,10 +3,10 @@ package remote_test
 import (
 	"encoding/json"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	. "github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/types"
+	. "github.com/lsoica/ginkgo"
+	"github.com/lsoica/ginkgo/config"
+	. "github.com/lsoica/ginkgo/internal/remote"
+	"github.com/lsoica/ginkgo/types"
 	. "github.com/onsi/gomega"
 )
 

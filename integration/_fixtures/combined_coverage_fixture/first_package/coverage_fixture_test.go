@@ -1,10 +1,10 @@
 package first_package_test
 
 import (
-	. "github.com/onsi/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package"
-	. "github.com/onsi/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package/external_coverage_fixture"
+	. "github.com/lsoica/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package"
+	. "github.com/lsoica/ginkgo/integration/_fixtures/combined_coverage_fixture/first_package/external_coverage_fixture"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/lsoica/ginkgo"
 	. "github.com/onsi/gomega"
 )
 

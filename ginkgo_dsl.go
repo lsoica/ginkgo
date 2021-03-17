@@ -5,7 +5,7 @@ The godoc documentation describes Ginkgo's API.  More comprehensive documentatio
 
 Ginkgo's preferred matcher library is [Gomega](http://github.com/onsi/gomega)
 
-Ginkgo on Github: http://github.com/onsi/ginkgo
+Ginkgo on Github: http://github.com/lsoica/ginkgo
 
 Ginkgo is MIT-Licensed
 */
@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/global"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/internal/testingtproxy"
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
-	"github.com/onsi/ginkgo/types"
+	"github.com/lsoica/ginkgo/config"
+	"github.com/lsoica/ginkgo/internal/codelocation"
+	"github.com/lsoica/ginkgo/internal/global"
+	"github.com/lsoica/ginkgo/internal/remote"
+	"github.com/lsoica/ginkgo/internal/testingtproxy"
+	"github.com/lsoica/ginkgo/internal/writer"
+	"github.com/lsoica/ginkgo/reporters"
+	"github.com/lsoica/ginkgo/reporters/stenographer"
+	colorable "github.com/lsoica/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/lsoica/ginkgo/types"
 )
 
 const GINKGO_VERSION = config.VERSION

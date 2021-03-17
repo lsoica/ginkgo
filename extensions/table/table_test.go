@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/onsi/ginkgo/extensions/table"
+	. "github.com/lsoica/ginkgo/extensions/table"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/lsoica/ginkgo"
 	. "github.com/onsi/gomega"
 )
 
